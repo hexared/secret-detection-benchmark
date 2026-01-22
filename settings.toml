@@ -1,0 +1,37 @@
+########################################
+# Application settings
+########################################
+
+app_name = "secret-benchmark-app"
+environment = "production"
+debug = false
+
+# Generic password
+admin_password = "AdminPassw0rd!2024"
+
+# PostgreSQL connection string
+postgres_url = "postgresql://appuser:PgPass123!@db.internal:5432/appdb"
+
+# JDBC connection string
+jdbc_url = "jdbc:postgresql://db.internal:5432/appdb?user=appuser&password=JdbcPass456!"
+
+# Generic JWT token
+jwt_token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI5OTk5Iiwicm9sZSI6InVzZXIifQ.dBjftJeZ4CVP-mB92K27uhbUJU1p1r_wW1gFWFOEjXk"
+
+# GCP API key
+gcp_api_key = "AIzaSyD-FakeGcpKeyExample987654"
+
+# Azure client secret
+azure_client_secret = "FakeAzureClientSecretValue123456"
+
+# Google OAuth client secret
+google_oauth_client_secret = "GOCSPX-TomlFakeOAuthSecret123"
+
+# Fake secrets
+example_password = "changeme"
+# Commented secret (should NOT be detected)
+# commented_secret = "ThisIsNotARealSecret"
+random_string = "a8s7d6f5g4h3j2k1l9m8n7b6v5c4x3z2"
+base64_example = "YW5vdGhlcl9leGFtcGxlX2Jhc2U2NA=="
+fake_token = "sk_test_NOTAREALSECRET123"
+api_key_example = "YOUR_API_KEY_HERE"

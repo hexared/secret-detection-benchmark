@@ -1,0 +1,12 @@
+{
+"type": "service_account",
+"project_id": "testproject-mid",
+"private_key_id": "880abb47yy1ee0bfdagt5d6957af4eecaf9d8550",
+"private_key": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACBgpPDLFBcfA+iQG2AviEP7AHIyE70TWvzWlRHwTBCUtAAAAKApUDtNKVA7\nTQAAAAtzc2gtZWQyNTUxOQAAACBgpPDLFBcfA+iQG2AviEP7AHIyE70TWvzWlRHwTBCUtA\nAAAEByrWVeMau7ISrzEzya79aojCXEyOzAkfRgdydbBxo0eGCk8MsUFx8D6JAbYC+IQ/sA\ncjITvRNa/NaVEfBMEJS0AAAAFm1hdHRlb0BCSVBJVEEtUEY0MjMwTUQBAgMEBQYH\n-----END OPENSSH PRIVATE KEY-----",
+"client_email": "starting-account-73yua9b8gh49@testproject-mid.iam.gserviceaccount.com",
+"client_id": "105313685600677793156",
+"auth_uri": "https://accounts.google.com/o/oauth2/auth",
+"token_uri": "https://oauth2.googleapis.com/token",
+"auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+"client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/starting-account-73yua9b8gh49%40testproject-mid.iam.gserviceaccount.com"
+}

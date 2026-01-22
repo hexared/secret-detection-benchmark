@@ -1,0 +1,6 @@
+{
+    "access_token": "ya29.GlgjBlf1j-FlpXhqINuLPILlf16PuqmOM38oc0sGyXcuvsEm8AQBGr8Rs80pEEqwpQYc1vvkYeK1LbOOpUWzVMC9NfbSvrMI3u-iLW-X21nIw_OemyjtMe4CY9wu",
+    "refresh_token": "1/T6IOaH3LLofKuiVG_8vd2Jc4dEk1Yw1gVtFUiCDs1p0",
+    "scope": "https://www.googleapis.com/auth/gmail.send https://mail.google.com/ https://www.googleapis.com/auth/gmail.modify https://www.googleapis.com/auth/gmail.compose",
+    "token_type": "Bearer"
+}

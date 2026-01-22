@@ -1,0 +1,20 @@
+services:
+  forwardauth:
+    deploy:
+      labels:
+        traefik.enable: "true"
+        traefik.http.middlewares.traefik-forward-auth.forwardauth.address: http://forwardauth:4181
+        traefik.http.middlewares.traefik-forward-auth.forwardauth.authResponseHeaders: X-Forwarded-User
+        traefik.http.middlewares.traefik-forward-auth.forwardauth.trustForwardHeader: "true"
+        traefik.http.routers.forwardauth.entrypoints: https
+        traefik.http.routers.forwardauth.rule: Path(`/_oauth`)
+        traefik.http.routers.forwardauth.tls: "true"
+        traefik.http.routers.forwardauth.tls.certresolver: letsencryptresolver
+        traefik.http.services.forwardauth.loadbalancer.server.port: '4181'
+    environment:
+      CLIENT_ID: forward-auth
+      CLIENT_SECRET: VhteTYHOaghF8c9GM20ukzJT54d2n8UI
+      LOG_LEVEL: debug
+      PROVIDER_URI: https://sso-fdss.test.net/auth/realms/fdss
+      SCOPE: profile email openid
+      SECRET: 0g5UieuHB7ynQeqWP3GmT49PZkJbUQh8

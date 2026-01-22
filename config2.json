@@ -1,0 +1,32 @@
+{ "env":
+   {
+       "prod": {
+          "oracle": {
+            "jdbc_url": "jdbc:oracle:thin:ENPRGCS/aSddF90037dsx@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE1",
+            "jdbc_classname": "oracle.jdbc.driver.OracleDriver",
+            "jdbc_user": "ENPRGCS",
+            "jdbc_pwd": "aSddF90037dsx",
+            "database": "DATABASE1"
+        }
+      },
+
+      "dev": {
+        "oracle": {
+            "jdbc_url": "jdbc:oracle:thin:ENPRGCS/aSddF90037dsx@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE1",
+            "jdbc_classname": "oracle.jdbc.driver.OracleDriver",
+            "jdbc_user": "ENPRGCS",
+            "jdbc_pwd": "aSddF90037dsx",
+            "database": "DATABASE1"
+            }
+      },
+      "stage": {
+        "oracle": {
+            "jdbc_url": "jdbc:oracle:thin:ENXPRR/ASDzhsdU782Asd@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE2",
+            "jdbc_classname": "oracle.jdbc.driver.OracleDriver",
+            "jdbc_user": "ENXPRR",
+            "jdbc_pwd": "ASDzhsdU782Asd",
+            "database": "DATABASE2"
+            }
+        }
+    }
+}

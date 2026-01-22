@@ -1,0 +1,22 @@
+{
+  "ConnectionStrings": {
+    "DefaultConnection": "server=myserver.mysql.database.azure.com;user=Administrator@myserver;password=P@ssword1!;database=maindb;",
+    "Connector-id": "9fkjas-8892kj-asd932-aksjdh"
+  },
+
+  "ConnectionStrings": {
+    "DefaultConnection": "server=myserver.mysql.database.azure.com;user=Administrator@myserver2;password=P@ssword2!;database=maindb;"
+    "Connector-id": "234jkl-9823js-sad823-jkashd"
+  },
+
+  "ConnectionStrings": {
+    "DefaultConnection": "server=myserver.mysql.database.azure.com;user=Administrator@myserver3;password=P@ssword3!;database=maindb;"
+    "Connector-id": "pp693j-k23jks-as23j-cvmnd"
+  },
+  "Logging": {
+    "LogLevel": {
+      "Default": "Warning"
+    }
+  },
+  "AllowedHosts": "*"
+}
