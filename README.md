@@ -1,5 +1,6 @@
 ## Secret detection benchmark repository
 File structure:
+```
 .
 ├── README.md
 ├── app.json
@@ -19,6 +20,7 @@ File structure:
 │   └── oauth_token.json
 ├── new_infra.tfstate
 └── settings.toml
+```
 
 ### Secrets list
 This repository contains a curated list of secrets used for benchmarking secret detection tools. The secrets included in this repository are for testing purposes only and should not be used in production environments.
