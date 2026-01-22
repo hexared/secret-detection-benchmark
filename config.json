@@ -2,10 +2,10 @@
    {
        "prod": {
           "oracle": {
-            "jdbc_url": "jdbc:oracle:thin:ENPRGCS/aSddF90037dsx@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE1",
+            "jdbc_url": "jdbc:oracle:thin:ENPRGCS/aSddF9770037dsx@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE1",
             "jdbc_classname": "oracle.jdbc.driver.OracleDriver",
             "jdbc_user": "ENPRGCS",
-            "jdbc_pwd": "aSddF90037dsx",
+            "jdbc_pwd": "aSddF9770037dsx",
             "database": "DATABASE1",
             "ssh_key": "-----BEGIN OPENSSH PRIVATE KEY-----\nb3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW\nQyNTUxOQAAACDVcjGbtBI26G7qgPQg3/mDpct8axGxNPcMVL3H0akHPgAAAKBmAQRRZgEE\nUQAAAAtzc2gtZWQyNTUxOQAAACDVcjGbtBI26G7qgPQg3/mDpct8axGxNPcMVL3H0akHPg\nAAAEDGdbFDIVldw/MHIyxx5jvRSsPDirUw6x+3vQhIKuT02NVyMZu0EjbobuqA9CDf+YOl\ny3xrEbE09wxUvcfRqQc+AAAAFm1hdHRlb0BCSVBJVEEtUEY0MjMwTUQBAgMEBQYH\n-----END OPENSSH PRIVATE KEY-----"
         }
@@ -13,19 +13,19 @@
 
       "dev": {
         "oracle": {
-            "jdbc_url": "jdbc:oracle:thin:ENPRGCS/aSddF90037dsx@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE1",
+            "jdbc_url": "jdbc:oracle:thin:ENPRGCS/aSddF9003700dsx@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE1",
             "jdbc_classname": "oracle.jdbc.driver.OracleDriver",
             "jdbc_user": "ENPRGCS",
-            "jdbc_pwd": "aSddF90037dsx",
+            "jdbc_pwd": "aSddF9003700dsx",
             "database": "DATABASE1"
             }
       },
       "stage": {
         "oracle": {
-            "jdbc_url": "jdbc:oracle:thin:ENXPRR/ASDzhsdU782Asd@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE2",
+            "jdbc_url": "jdbc:oracle:thin:ENXPRR/aSddF9003700dsx@//datalake-rdb1-sd.services.self.intranet:1531/DATABASE2",
             "jdbc_classname": "oracle.jdbc.driver.OracleDriver",
             "jdbc_user": "ENXPRR",
-            "jdbc_pwd": "ASDzhsdU782Asd",
+            "jdbc_pwd": "aSddF9003700dsx",
             "database": "DATABASE2"
             }
         }
