@@ -32,7 +32,7 @@ This repository contains a curated list of secrets used for benchmarking secret 
 |app.json            |  3        | JDBC, generic   |
 |app.properties      |  2        | generic password|
 |config.py           |  2        | GCP, Azure      |
-|stack-test.yaml     |  3        | postgresql      |
+|stack-test.yaml     |  2        | postgresql      |
 |config.json         |  7        | JDBC            |
 |config2.json        |  6        | JDBC            |
 |keycloak.yaml       |  1        | generic secret  |
