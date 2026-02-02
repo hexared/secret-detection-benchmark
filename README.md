@@ -39,7 +39,6 @@ This repository contains a curated list of secrets used for benchmarking secret 
 |oauth_token.json    |  1        | generic token   |
 |new_infra.tfstate   |  2        | generic pass    |
 |tokens              |  1        | JWT token       |
-|test                |  1        | JWT token       |
 |google_account.json |  1        | GCP token       |
 |settings.toml       |  7        | Everything      |
 
